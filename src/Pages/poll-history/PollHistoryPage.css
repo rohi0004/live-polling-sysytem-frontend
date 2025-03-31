@@ -1,0 +1,84 @@
+/* Gradient Background Overlay */
+.custom-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+  }
+  
+  /* Modern Glassmorphism Modal */
+  .custom-modal {
+    background: linear-gradient(135deg, #7765DA, #4F0DCE);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    width: 380px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.3s ease-in-out;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Modal Title */
+  .modal-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #F2F2F2;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  /* Modal Text */
+  .modal-text {
+    font-size: 16px;
+    color: #F2F2F2;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 300;
+  }
+  
+  /* Fancy Button */
+  .modal-button {
+    background: #F2F2F2;
+    color: #4F0DCE;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .modal-button:hover {
+    background: #fff;
+    color: #5767D0;
+    transform: scale(1.05);
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Header Styling */
+  .heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4F0DCE;
+  }
+  
