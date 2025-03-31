@@ -1,0 +1,77 @@
+.container {
+  max-width: 600px;
+  margin-top: 2rem;
+}
+
+.headerButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(99.18deg, #8F64E1 -46.89%, #1D68BD 223.45%);
+  border: none;
+  border-radius: 50px;
+  padding: 8px 16px;
+  color: white;
+}
+
+.pollCard {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.pollBody {
+  padding: 1.5rem;
+}
+
+.questionTitle {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.questionText {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.optionContainer {
+  margin-bottom: 1rem;
+}
+
+.optionText {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.percentageText {
+  color: #6c757d;
+}
+
+.progressBar {
+  height: 8px;
+  background-color: #f0f0f0;
+}
+
+.progressBarFill {
+  background-color: #7565d9;
+}
+
+.newQuestionButton {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: linear-gradient(99.18deg, #8F64E1 -46.89%, #1D68BD 223.45%);
+  border: none;
+  border-radius: 50px;
+  padding: 8px 20px;
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.waitingText {
+  text-align: center;
+  color: #6c757d;
+  padding: 1rem 0;
+}
